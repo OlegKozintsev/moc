@@ -19,12 +19,24 @@
         <header class="header">
             <div class="header-wrap">
                 <div class="logo">
-                    <a href="#" class="logo__link">
+                    <a href="#" class="logo__link decstop_logo">
                         <img src="img/logo.png" alt="" class="logo__img">
+                    </a>
+                    <a href="#" class="logo__link mobile_logo">
+                        <img src="img/mobile-logo.svg" alt="" class="logo__img">
                     </a>
 
                 </div>
+                <div class="burger-wrap">
+                        <input id="burger" class="burger__input" type="checkbox" />
+                        <label class="burger__label" for="burger">
+                            <span class="burger__label-item"></span>
+                            <span class="burger__label-item"></span>
+                            <span class="burger__label-item"></span>
+                        </label>
+                </div>
                 <nav class="menu">
+                        
                     <ul class="menu__list">
                         <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
                         <li class="menu__item menu__item_marker"><a href="#" class="menu__link">Продукция</a></li>
@@ -76,7 +88,7 @@
                     </div>
                 </div>
             </section>
-            <section class="advantages hideSection">
+            <section class="advantages">
                 <div class="advantages-wrap">
                     <div class="heading-section">
                         <h2 class="heading-section__text">Преимущества</h2>
@@ -89,35 +101,35 @@
                             <p class="content__item-description">Полный цикл либо частичное производство</p>
                         </div>
                         <div class="content__item">
-                            <img src="img/conv.svg" alt="" class="content__item-img">
-                            <p class="content__item-title">Гибкость</p>
-                            <p class="content__item-description">Полный цикл либо частичное производство</p>
+                            <img src="img/manufacturing.svg" alt="" class="content__item-img">
+                            <p class="content__item-title">Любой обьем</p>
+                            <p class="content__item-description">Работаем от 1+ единицы товара</p>
                         </div>
                         <div class="content__item">
-                            <img src="img/conv.svg" alt="" class="content__item-img">
-                            <p class="content__item-title">Гибкость</p>
-                            <p class="content__item-description">Полный цикл либо частичное производство</p>
+                            <img src="img/control.svg" alt="" class="content__item-img">
+                            <p class="content__item-title">Качество</p>
+                            <p class="content__item-description">Контролируем качество на каждом этапе</p>
                         </div>
                         <div class="content__item">
-                            <img src="img/conv.svg" alt="" class="content__item-img">
-                            <p class="content__item-title">Гибкость</p>
-                            <p class="content__item-description">Полный цикл либо частичное производство</p>
+                            <img src="img/call-center.svg" alt="" class="content__item-img">
+                            <p class="content__item-title">Прозрачность</p>
+                            <p class="content__item-description">Оповещаем о переходе на следующий этап</p>
                         </div>
                         <div class="content__item">
-                            <img src="img/conv.svg" alt="" class="content__item-img">
-                            <p class="content__item-title">Гибкость</p>
-                            <p class="content__item-description">Полный цикл либо частичное производство</p>
+                            <img src="img/savings.svg" alt="" class="content__item-img">
+                            <p class="content__item-title">Экономность</p>
+                            <p class="content__item-description">Почасовая оплата при заказе отдельной услуги</p>
                         </div>
                         <div class="content__item">
-                            <img src="img/conv.svg" alt="" class="content__item-img">
-                            <p class="content__item-title">Гибкость</p>
-                            <p class="content__item-description">Полный цикл либо частичное производство</p>
+                            <img src="img/credit-cards.svg" alt="" class="content__item-img">
+                            <p class="content__item-title">Удобная оплата</p>
+                            <p class="content__item-description">Наличные или перевод, отсрочка платежа</p>
                         </div>
                     </div>
                 </div>
 
             </section>
-            <section class="works hideSection">
+            <section class="works">
                 <div class="heading-section">
                     <h2 class="heading-section__text">Как мы работаем</h2>
                 </div>
@@ -152,7 +164,7 @@
 
                 </div>
             </section>
-            <section class="services hideSection">
+            <section class="services">
                 <div class="heading-section">
                     <h2 class="heading-section__text">Услуги</h2>
                 </div>
@@ -202,18 +214,18 @@
                     </div>
                 </div>
             </section>
-            <section class="portfolio hideSection">
+            <section class="portfolio">
                 <div class="heading-section">
                     <h2 class="heading-section__text">Наши работы</h2>
                 </div>
                 <div class="separator separator_heading"></div>
                 <div class="portfolio-content">
-                    <div class="arrow-wrap">
-                        <img src="img/arrow-slider-left.svg" alt="" class="portfolio-arrow" id="portfolioLeft">
-                        <img src="img/arrow-slider-right.svg" alt="" class="portfolio-arrow" id="portfolioRight">
-                    </div>
+                   
                     <div class="slider-wrap ">
-
+                            <div class="arrow-wrap">
+                                    <img src="img/arrow-slider-left.svg" alt="" class="portfolio-arrow" id="portfolioLeft">
+                                    <img src="img/arrow-slider-right.svg" alt="" class="portfolio-arrow" id="portfolioRight">
+                                </div>
                         <ul id="portfolio" class="cs-hidden">
                             <li>
                                 <div class="slide-item">
@@ -251,7 +263,7 @@
                     </div>
                 </div>
             </section>
-            <section class="products hideSection">
+            <section class="products">
                 <div class="heading-section">
                     <h2 class="heading-section__text">Продукция</h2>
                 </div>
@@ -269,7 +281,7 @@
                 </div>
 
             </section>
-            <section class="team hideSection">
+            <section class="team">
                 <div class="heading-section">
                     <h2 class="heading-section__text">Команда</h2>
                 </div>
@@ -403,7 +415,7 @@
                     </div>
 
             </section>
-            <section class="case hideSection">
+            <section class="case">
                 <div class="heading-section">
                     <h2 class="heading-section__text">Case studies</h2>
                 </div>
@@ -521,7 +533,7 @@
                     </div>
 
             </section>
-            <section class="contact-form hideSection">
+            <section class="contact-form">
                 <div class="map">
                     <adress class="contacts">
                         <div class="heading-section">

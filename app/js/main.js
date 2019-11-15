@@ -13,18 +13,13 @@ $(document).ready(function() {
         speed:600,
         responsive : [
             {
-                breakpoint:800,
+                breakpoint:769,
                 settings: {
-                    item:1,
+                    item:3,
                     slideMove:1,
-                    slideMargin:6,
-                  }
-            },
-            {
-                breakpoint:480,
-                settings: {
-                    item:1,
-                    slideMove:1
+                    slideMargin:0,
+                    enableTouch: true,
+                    adaptiveHeight: true
                   }
             }
         ]
@@ -53,16 +48,21 @@ $(document).ready(function() {
             {
                 breakpoint:800,
                 settings: {
-                    item:1,
+                    item:2,
                     slideMove:1,
-                    slideMargin:6,
+                    slideMargin:15,
                   }
             },
             {
-                breakpoint:480,
+                breakpoint:691,
                 settings: {
                     item:1,
-                    slideMove:1
+                    slideMove:1,
+                    enableTouch: true,
+                    adaptiveHeight: true,
+                    slideMargin:5
+                    
+
                   }
             }
         ]
@@ -93,16 +93,19 @@ var caseSlider = $('#case').lightSlider({
         {
             breakpoint:800,
             settings: {
-                item:1,
+                item:2,
                 slideMove:1,
-                slideMargin:6,
+                slideMargin:15,
               }
         },
         {
-            breakpoint:480,
+            breakpoint:691,
             settings: {
                 item:1,
-                slideMove:1
+                slideMove:1,
+                enableTouch: true,
+                adaptiveHeight: true,
+                slideMargin:5
               }
         }
     ]

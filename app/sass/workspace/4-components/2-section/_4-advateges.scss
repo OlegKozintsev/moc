@@ -66,6 +66,8 @@
 
     }
 
+ 
+
     &__item-description {
         font-family: $mm;
         font-size: $f16;
@@ -76,6 +78,12 @@
         width:100%;
         margin:0 auto;
 
+     
+
 
     }
+}
+
+.content__item:last-child > .content__item-description{
+    padding-bottom:0;
 }
