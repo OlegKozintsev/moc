@@ -421,8 +421,11 @@
 }
 
 @media screen and (max-width:460px) {
-
+    .header {
+        padding-top:1.5rem
+    }
     .title {
+        padding-top:8rem;
         .slogan {
 
             max-width: 100%;

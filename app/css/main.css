@@ -1542,11 +1542,15 @@ template {
       padding-right: 0; } }
 
 @media screen and (max-width: 460px) {
-  .title .slogan {
-    max-width: 100%;
-    width: 100%; }
-  .title .cost__button {
-    font-size: 1.4rem; }
+  .header {
+    padding-top: 1.5rem; }
+  .title {
+    padding-top: 8rem; }
+    .title .slogan {
+      max-width: 100%;
+      width: 100%; }
+    .title .cost__button {
+      font-size: 1.4rem; }
   .heading-section__text {
     font-size: 3.6rem; }
   .advantages {
