@@ -1,0 +1,85 @@
+.services {
+    padding-top:15rem;
+    padding-bottom:15rem;
+    background-color: #f7f9fc;
+}
+
+.services-content {
+    margin:0 auto;
+    max-width: 128rem;
+    max-height: 95rem;
+    width:100%;
+    min-height: 95rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.content__item-img_size {
+    width:auto;
+    height: auto;
+}
+
+.content__item_size{
+    width: 29rem;
+    height: 29rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $white;
+    border-radius: 2rem;
+}
+
+.content__item-description_modif {
+    padding-bottom:0;
+    padding-top: 2.6rem;
+    font-size: $f24;
+   
+}
+
+.content__item_double_width {
+    height: 29rem;
+    width:95rem;
+    max-width: 95rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: $white;
+    border-radius: 2rem;
+    background-image: url('../img/sircle.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 4rem;
+}
+
+.content__item-title_left {
+    margin:0;
+    text-align: left;
+    padding-bottom: 0;
+    padding-top:0;
+    margin-bottom:1rem;
+}
+
+.content__item__button {
+    opacity: 0.98;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px 0 rgba(115, 60, 185, 0.61);
+  background-image: linear-gradient(to bottom, #8433cc, #6b32b3);
+  font-family: $mr;
+  font-size: $f16;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  color: $white;
+  padding: 1.8rem 4.4rem;
+  margin-top:4.6rem;
+  display: inline-block;
+
+}

@@ -1,0 +1,21 @@
+// Phone
+.phone {
+
+    &__marker {
+        width:1.4rem;
+        height: 1.4rem;
+        margin-right:0.7rem;
+        line-height: $l24;
+        vertical-align: text-bottom;
+        
+    }
+
+    &__number {
+        font-family: $mb;
+        font-size:$f16;
+        line-height: $l24;
+        letter-spacing: $ls2;
+        color:$white;
+     
+    }
+}

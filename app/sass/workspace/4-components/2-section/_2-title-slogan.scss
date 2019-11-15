@@ -1,0 +1,66 @@
+.slogan {
+
+    width:100%;
+    max-width: 96.6rem;
+    min-width:96.6rem;
+    margin:0 auto;
+    
+
+}
+
+
+.heading {
+
+   
+    
+    &__text {
+        font-family: $mr;
+        font-size:$f60;
+        line-height: 1.17;
+        color:$white;
+        text-align: center;
+        font-weight: 500;
+        margin:0;
+    }
+}
+
+.description {
+  
+    &__text {
+           
+            font-family: $mr;
+            font-size: $f24;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: center;
+            color: $white;
+          
+    }
+}
+
+
+.cost{
+
+    padding-top:7rem;
+    text-align: center;
+
+    &__button{
+ 
+        opacity: 0.98;
+        border-radius: 3rem;
+        box-shadow: 0 1rem 2.5rem 0 rgba(255, 192, 92, 0.39);
+        background-color: #ffc05c;
+        font-family: $meb;
+        font-size:$f16;
+        line-height: $l24;
+        letter-spacing: 0.3rem;
+        color: $fiolet;
+        display: inline-block;
+        padding:2.8rem 4.2rem;
+        text-transform: uppercase;
+      
+    }
+}

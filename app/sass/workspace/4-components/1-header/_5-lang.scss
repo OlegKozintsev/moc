@@ -1,0 +1,56 @@
+// lang sweetch
+
+
+.lang {
+
+    &__list {
+        display: inline-flex;
+        align-items: stretch;
+        padding-top:1rem;
+
+    }
+
+    &__link {
+        text-transform: uppercase;
+        font-family: $mr;
+        font-size: $f12;
+        color: $white;
+       
+        letter-spacing: 0.1rem;
+        display: inline-block;
+       
+  
+    }
+
+    &__item {
+        opacity: 0.3;
+        border: 1px solid $white;
+        width:4.7rem;
+        height:2.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        &_active {
+
+            opacity: 0.6;
+            border: 1px solid $white;
+
+            & .lang-link {
+                opacity: 1;
+            }
+        }
+      
+
+        &:first-child {
+            border-radius: 1rem 0 0 1rem;
+
+        }
+
+        &:last-child {
+            border-radius: 0 1rem 1rem 0;
+
+        }
+    }
+
+}

@@ -1,0 +1,29 @@
+// works
+
+.works {
+
+    padding-top:17.4rem;
+    padding-bottom:11.4rem;
+    background-image: linear-gradient(127deg, #fefcff 12%, #f8f2ff 88%);
+
+}
+
+.works-content {
+
+    display: flex;
+    max-width:118.2rem;
+    width:100%;
+    margin:0 auto;
+    justify-content: center;
+    flex-wrap:wrap;
+    background-image: url('../img/line.svg');
+    background-position: top right;
+    background-size: 107.4rem;
+    background-repeat: no-repeat;
+    
+}
+
+.content__item_width {
+    max-width: 25%;
+    padding-top:7rem;
+}

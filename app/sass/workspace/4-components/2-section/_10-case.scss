@@ -1,0 +1,46 @@
+
+//case__item
+
+.case {
+    background-color: #f7f9fc;
+    padding-top:15rem;
+    padding-bottom:15rem;
+
+
+}
+
+.case-item {
+    padding-left:1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom:5rem;
+    max-width: 29rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 2rem;
+    
+}
+
+.content__item-title_case {
+    font-family: $mr;
+  font-size: $f16;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #2a334f;
+  padding-bottom: 1rem;
+    padding-top: 3rem;
+    max-width: 22.4rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.case-item__img {
+    max-width: 18rem;
+    margin:0 auto;
+    display: block;
+
+}

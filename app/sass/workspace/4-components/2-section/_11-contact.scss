@@ -1,0 +1,193 @@
+
+.contact-form {
+
+    background-image: url('../img/map.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding-top: 26rem;
+    padding-bottom:26rem;
+  
+}
+
+.map {
+    max-width: 128rem;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.contacts {
+
+    width: 40rem;
+    display: inline-block;
+    padding: 4rem;
+    height: 44rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px 0 rgba(115, 60, 185, 0.61);
+    background-color: #ffffff;
+    box-sizing: border-box;
+
+}
+
+.tabs {
+    padding-top: 3.4rem;
+
+}
+
+
+.tabs__caption {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.5rem;
+
+}
+
+.tabs__content {
+    display: none;
+
+    /* по умолчанию прячем все блоки */
+}
+
+.tabs__content.active {
+    display: block;
+    /* по умолчанию показываем нужный блок */
+}
+
+.tabs_contacts {
+    opacity: 0.5;
+    font-family: $mr;
+    font-size: $f16;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #2a334f;
+    display: inline-block;
+    padding: 0.6rem 4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+
+
+}
+
+.tabs_contacts.active {
+    opacity: 0.98;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 0 rgba(115, 60, 185, 0.61);
+    background-image: linear-gradient(to bottom, #8433cc, #6b32b3);
+    color: $white;
+    font-family: $mr;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.adress-list {
+
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+
+    &__img {
+        margin-right: 1.2rem;
+
+        &_p {
+            padding-left:0.4rem;
+        }
+    }
+
+    &__text {
+        font-family: $mr;
+        font-size: 1.6rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #2a334f;
+    }
+}
+
+.form-wrap {
+    width: 50rem;
+  height: auto;
+  border-radius: 2rem;
+  box-shadow: 0 2rem 2.5rem 0 rgba(115, 60, 185, 0.61);
+  background-color: #ffffff;
+  padding: 4rem;
+}
+
+.form__row {
+    margin-bottom: 3rem;
+
+    &:first-child {
+        margin-top:2rem;
+    }
+
+    &:last-child {
+        margin-bottom:0;
+    }
+}
+
+.form__label {
+    font-family: $mr;
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #2a334f;
+}
+
+.form__input {
+
+    height: 5rem;
+    width: 100%;
+  border-radius: 1rem;
+  background-color: #f7f9fc;
+  border:none;
+  outline:none;
+  font-family: $mr;
+  font-size: $f16;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #2a334f;
+  text-indent: 2rem;
+  border: solid 0.1rem transparent;
+
+  &:focus {
+    border: solid 0.1rem #1408ff;
+  }
+
+}
+
+.form__submit {
+    opacity: 0.98;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px 0 rgba(115, 60, 185, 0.61);
+  background-image: linear-gradient(to bottom, #8433cc, #6b32b3);
+  font-family: $mr;
+  font-size: $f16;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #ffffff;
+  padding:1.8rem 14.7rem ;
+}

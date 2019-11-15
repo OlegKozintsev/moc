@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1201" height="407" viewBox="0 0 1201 407">
+    <defs>
+        <circle id="b" cx="35" cy="35" r="35"/>
+        <filter id="a" width="171.4%" height="171.4%" x="-35.7%" y="-28.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.450980392 0 0 0 0 0.235294118 0 0 0 0 0.725490196 0 0 0 0.202605988 0"/>
+        </filter>
+        <circle id="d" cx="693" cy="61" r="35"/>
+        <filter id="c" width="171.4%" height="171.4%" x="-35.7%" y="-28.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.450980392 0 0 0 0 0.235294118 0 0 0 0 0.725490196 0 0 0 0.202605988 0"/>
+        </filter>
+        <circle id="f" cx="1021" cy="61" r="35"/>
+        <filter id="e" width="171.4%" height="171.4%" x="-35.7%" y="-28.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.450980392 0 0 0 0 0.235294118 0 0 0 0 0.725490196 0 0 0 0.202605988 0"/>
+        </filter>
+        <circle id="h" cx="361" cy="350" r="35"/>
+        <filter id="g" width="171.4%" height="171.4%" x="-35.7%" y="-28.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.450980392 0 0 0 0 0.235294118 0 0 0 0 0.725490196 0 0 0 0.202605988 0"/>
+        </filter>
+        <circle id="j" cx="692" cy="350" r="35"/>
+        <filter id="i" width="171.4%" height="171.4%" x="-35.7%" y="-28.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.450980392 0 0 0 0 0.235294118 0 0 0 0 0.725490196 0 0 0 0.202605988 0"/>
+        </filter>
+        <circle id="l" cx="362" cy="61" r="35"/>
+        <filter id="k" width="171.4%" height="171.4%" x="-35.7%" y="-28.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.450980392 0 0 0 0 0.235294118 0 0 0 0 0.725490196 0 0 0 0.202605988 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#733CB9" stroke-dasharray="2,6" stroke-width="3" d="M72 62.798c38.491-35.333 83.717-53 135.679-53 77.942 0 121.265 53 168.903 53 47.639 0 154.818 93.6 333.86 0 179.04-93.6 279.867-64.238 303.954-11.204 16.057 35.356 30.927 39.09 44.608 11.204C1152.334 65.402 1199 103.136 1199 176c0 109.296-139.996 118.177-246.526 118.177S402.07 236 348.623 273.158c-35.631 24.773-32.782 51.048 8.55 78.825 123.56 36.023 236.318 36.023 338.275 0"/>
+        <g opacity=".98" transform="translate(15 28)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <text fill="#733CB9" font-family="Montserrat-Medium, Montserrat" font-size="36" font-weight="400" transform="translate(15 28)">
+            <tspan x="28" y="52">1</tspan>
+        </text>
+        <g opacity=".98" transform="translate(15 2)">
+            <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+            <use fill="#FFF" xlink:href="#d"/>
+        </g>
+        <text fill="#733CB9" font-family="Montserrat-Medium, Montserrat" font-size="36" font-weight="400" transform="translate(15 2)">
+            <tspan x="682.5" y="78">3</tspan>
+        </text>
+        <g opacity=".98" transform="translate(15 2)">
+            <use fill="#000" filter="url(#e)" xlink:href="#f"/>
+            <use fill="#FFF" xlink:href="#f"/>
+        </g>
+        <text fill="#733CB9" font-family="Montserrat-Medium, Montserrat" font-size="36" font-weight="400" transform="translate(15 2)">
+            <tspan x="1008.5" y="78">4</tspan>
+        </text>
+        <g opacity=".98" transform="translate(15 2)">
+            <use fill="#000" filter="url(#g)" xlink:href="#h"/>
+            <use fill="#FFF" xlink:href="#h"/>
+        </g>
+        <text fill="#733CB9" font-family="Montserrat-Medium, Montserrat" font-size="36" font-weight="400" transform="translate(15 2)">
+            <tspan x="350.5" y="367">5</tspan>
+        </text>
+        <g opacity=".98" transform="translate(15 2)">
+            <use fill="#000" filter="url(#i)" xlink:href="#j"/>
+            <use fill="#FFF" xlink:href="#j"/>
+        </g>
+        <text fill="#733CB9" font-family="Montserrat-Medium, Montserrat" font-size="36" font-weight="400" transform="translate(15 2)">
+            <tspan x="680.5" y="367">6</tspan>
+        </text>
+        <g opacity=".98" transform="translate(15 2)">
+            <use fill="#000" filter="url(#k)" xlink:href="#l"/>
+            <use fill="#FFF" xlink:href="#l"/>
+        </g>
+        <text fill="#733CB9" font-family="Montserrat-Medium, Montserrat" font-size="36" font-weight="400" transform="translate(15 2)">
+            <tspan x="351.5" y="78">2</tspan>
+        </text>
+    </g>
+</svg>

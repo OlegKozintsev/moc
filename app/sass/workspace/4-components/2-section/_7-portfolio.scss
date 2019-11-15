@@ -1,0 +1,78 @@
+.portfolio {
+    padding-top:15rem;
+    padding-bottom:15rem;
+    position: relative;
+}
+
+
+.slide-item {
+    border-radius: 2rem;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+    text-align: center;
+    max-width: 95rem;
+    margin:0 auto;
+  
+
+    &__img {
+        width: 100%;
+        border-radius: 2rem;
+    }
+   
+}
+
+.portfolio-arrow {
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+.arrow-wrap {
+    width:94.5rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+
+.slider-wrap {
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.portfolio-content .lSSlideOuter {
+   width:140%;
+     transform:translateX(-14.2%);
+   
+
+}
+
+.portfolio-content .lSPager.lSpg {
+    margin-top: 4rem!important;
+}
+
+.portfolio-content .lSSlideOuter .lSPager.lSpg>li.active a {
+
+    width: 0.8rem;
+  height: 0.8rem;
+  background-color: #733cb9;
+}
+
+.portfolio-content .lSSlideOuter .lSPager.lSpg>li a {
+
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #ebe6f2;
+}
+
+.download-button {
+
+    text-align: center;
+    padding-top:2.4rem;
+    
+}
