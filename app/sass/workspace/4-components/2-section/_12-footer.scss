@@ -1,0 +1,58 @@
+// footer
+
+.footer {
+    padding-top: 2.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: row;
+    max-width: 89.58333%;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.soc {
+
+
+    &__item {
+        display: inline-block;
+        margin-right: 3.6rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+
+
+    &__link {
+        font-size: 2.8rem;
+        color: $black;
+        transition: color 300ms ease;
+
+        &:hover {
+            color:$fiolet;
+            transition: color 300ms ease;
+        }
+    }
+}
+
+.copiright {
+
+    &__text {
+        font-family: $lr;
+        font-size: 1.8rem;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #4a4a4a;
+    }
+}

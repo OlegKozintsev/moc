@@ -27,47 +27,60 @@
                     </a>
 
                 </div>
-                <div class="burger-wrap">
-                        <input id="burger" class="burger__input" type="checkbox" />
-                        <label class="burger__label" for="burger">
-                            <span class="burger__label-item"></span>
-                            <span class="burger__label-item"></span>
-                            <span class="burger__label-item"></span>
-                        </label>
-                </div>
-                <nav class="menu">
-                        
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
-                        <li class="menu__item menu__item_marker"><a href="#" class="menu__link">Продукция</a></li>
-                        <li class="menu__item menu__item_marker">
-                            <a href="#" class="menu__link">Услуги</a>
-                            <ul class="submenu">
-                                <li class="submenu__item"><a href="#" class="submenu__link">3D печать</a></li>
-                                <li class="submenu__item"><a href="#" class="submenu__link">Гравировка</a></li>
-                                <li class="submenu__item"><a href="#" class="submenu__link">Тиражирование</a></li>
-                                <li class="submenu__item"><a href="#" class="submenu__link">Разработка лекал</a></li>
-                                <li class="submenu__item"><a href="#" class="submenu__link">Фрезерная ЧПУ обработка</a></li>
-                                <li class="submenu__item"><a href="#" class="submenu__link">Лазерная обрезка</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu__item"><a href="#" class="menu__link">Case Studies</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
-                    </ul>
-                </nav>
-                <div class="contact">
-                    <div class="phone">
-                        <img src="img/tel.svg" alt="" class="phone__marker">
-                        <a href="tel:+380955489009" class="phone__number">+38 (095) 548-90-09</a>
-                    </div>
-                    <div class="lang">
-                        <ul class="lang__list">
-                            <li class="lang__item lang__item_active"><a class="lang__link" href="#">ru</a></li>
-                            <li class="lang__item "><a class="lang__link" href="#">en</a></li>
+                <div class="header-content" id="headerContact">
+                    <nav class="menu" id="menu">
+                        <ul class="menu__list">
+                            <li class=""><a href="#" class="">О нас</a></li>
+                            <li class="">
+                                <a href="#"  class="menu__item_marker">Продукция</a>
+                                <ul class="submenu submenu__products">
+                                        <li class="fons"><a href="#"><p class="over"><span>Узнать подробнее</span></p><img  src="img/snow-m.jpg" alt=""><span>Внешняя реклама</span></a></li>
+                                        <li class="fons"><a href="#"><p class="over"><span>Узнать подробнее</span></p><img  src="img/oil-m.jpg" alt=""><span>Брендированные товары</span></a></li>                            
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="#" class="menu__item_marker">Услуги</a>
+                                <ul class="submenu">
+                                    <li><a href="#"><p class="over"><span>Узнать подробнее</span></p><img src="img/design.svg" alt=""><span>3D печать</span></a></li>
+                                    <li><a href="#"><p class="over"><span>Узнать подробнее</span></p><img src="img/design.svg" alt=""><span>3D печать</span></a></li>
+                                    <li><a href="#"><p class="over"><span>Узнать подробнее</span></p><img src="img/design.svg" alt=""><span>3D печать</span></a></li>
+                                    <li><a href="#"><p class="over"><span>Узнать подробнее</span></p><img src="img/design.svg" alt=""><span>3D печать</span></a></li>
+                                    <li><a href="#"><p class="over"><span>Узнать подробнее</span></p><img src="img/design.svg" alt=""><span>3D печать</span></a></li>
+                                    <li><a href="#"><p class="over"><span>Узнать подробнее</span></p><img src="img/design.svg" alt=""><span>3D печать</span></a></li>
+                                    <li><a href="#"><p class="over"><span>Узнать подробнее</span></p><img src="img/design.svg" alt=""><span>3D печать</span></a></li>
+                                    <li><a href="#"><p class="over"><span>Узнать подробнее</span></p><img src="img/design.svg" alt=""><span>3D печать</span></a></li>
+                                    <li><a href="#"><p class="over"><span>Узнать подробнее</span></p><img src="img/design.svg" alt=""><span>3D печать</span></a></li>
+
+                                </ul>
+                            </li>
+                            <li class=""><a href="#" class="">Case Studies</a></li>
+                            <li class=""><a href="#" class="">Блог</a></li>
+                            <li class=""><a href="#" class="">Контакты</a></li>
                         </ul>
+                    </nav>
+                    <div class="contact" id="contact">
+                        <div class="phone">
+                            <img src="img/tel.svg" alt="" class="phone__marker">
+                            <a href="tel:+380955489009" class="phone__number">+38 (095) 548-90-09</a>
+                        </div>
+                        <div class="lang">
+                            <ul class="lang__list">
+                                <li class="lang__item lang__item_active"><a class="lang__link" href="#">ru</a></li>
+                                <li class="lang__item "><a class="lang__link" href="#">en</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="burger">
+                        <input id="burger" type="checkbox" />
+
+                        <label id="burgerLabel" for="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
                     </div>
                 </div>
+
             </div>
 
         </header>
@@ -84,7 +97,7 @@
                         <p class="description__text">Используем ваш брендинг и упаковку</p>
                     </div>
                     <div class="cost">
-                        <a href="#" class="cost__button">просчитать стоимость</a>
+                        <a href="#" class="cost__button swing">просчитать стоимость</a>
                     </div>
                 </div>
             </section>
@@ -171,46 +184,56 @@
                 <div class="separator separator_heading"></div>
                 <div class="services-content">
                     <div class="content__item content__item_size">
+                        <a href="" class="over"><span>Узнать подробнее</span></a>
                         <img src="img/conv.svg" alt="" class="content__item-img content__item-img_size">
                         <p class="content__item-description content__item-description_modif ">Дизайн</p>
                     </div>
                     <div class="content__item content__item_size">
+                            <a href="" class="over"><span>Узнать подробнее</span></a>
                         <img src="img/conv.svg" alt="" class="content__item-img content__item-img_size">
                         <p class="content__item-description content__item-description_modif ">Дизайн</p>
                     </div>
                     <div class="content__item content__item_size">
+                            <a href="" class="over"><span>Узнать подробнее</span></a>
                         <img src="img/conv.svg" alt="" class="content__item-img content__item-img_size">
                         <p class="content__item-description content__item-description_modif ">Дизайн</p>
                     </div>
                     <div class="content__item content__item_size">
+                            <a href="" class="over"><span>Узнать подробнее</span></a>
                         <img src="img/conv.svg" alt="" class="content__item-img content__item-img_size">
                         <p class="content__item-description content__item-description_modif ">Дизайн</p>
                     </div>
                     <div class="content__item content__item_size">
+                            <a href="" class="over"><span>Узнать подробнее</span></a>
                         <img src="img/conv.svg" alt="" class="content__item-img content__item-img_size">
                         <p class="content__item-description content__item-description_modif ">Дизайн</p>
                     </div>
                     <div class="content__item content__item_size">
+                            <a href="" class="over"><span>Узнать подробнее</span></a>
                         <img src="img/conv.svg" alt="" class="content__item-img content__item-img_size">
                         <p class="content__item-description content__item-description_modif ">Дизайн</p>
                     </div>
                     <div class="content__item content__item_size">
+                            <a href="" class="over"><span>Узнать подробнее</span></a>
                         <img src="img/conv.svg" alt="" class="content__item-img content__item-img_size">
                         <p class="content__item-description content__item-description_modif ">Дизайн</p>
                     </div>
                     <div class="content__item content__item_size">
+                            <a href="" class="over"><span>Узнать подробнее</span></a>
                         <img src="img/conv.svg" alt="" class="content__item-img content__item-img_size">
                         <p class="content__item-description content__item-description_modif ">Дизайн</p>
                     </div>
                     <div class="content__item content__item_size">
+                            <a href="" class="over"><span>Узнать подробнее</span></a>
                         <img src="img/conv.svg" alt="" class="content__item-img content__item-img_size">
                         <p class="content__item-description content__item-description_modif ">Дизайн</p>
                     </div>
                     <div class="content__item content__item_double_width">
+                          
                         <p class="content__item-title content__item-title_left">Гибкость</p>
                         <p class="content__item-description content__item-title_left">Полный цикл либо частичное
                             производство</p>
-                        <a href="#" class="content__item__button">просчитать стоимость</a>
+                        <a href="#" class="content__item__button swing">просчитать стоимость</a>
                     </div>
                 </div>
             </section>
@@ -220,12 +243,12 @@
                 </div>
                 <div class="separator separator_heading"></div>
                 <div class="portfolio-content">
-                   
+
                     <div class="slider-wrap ">
-                            <div class="arrow-wrap">
-                                    <img src="img/arrow-slider-left.svg" alt="" class="portfolio-arrow" id="portfolioLeft">
-                                    <img src="img/arrow-slider-right.svg" alt="" class="portfolio-arrow" id="portfolioRight">
-                                </div>
+                        <div class="arrow-wrap">
+                            <img src="img/arrow-slider-left.svg" alt="" class="portfolio-arrow" id="portfolioLeft">
+                            <img src="img/arrow-slider-right.svg" alt="" class="portfolio-arrow" id="portfolioRight">
+                        </div>
                         <ul id="portfolio" class="cs-hidden">
                             <li>
                                 <div class="slide-item">
@@ -259,7 +282,7 @@
 
                     </div>
                     <div class="download-button">
-                        <a href="#" class="content__item__button">скачать pdf презентацию</a>
+                        <a href="#" class="content__item__button swing">скачать pdf презентацию</a>
                     </div>
                 </div>
             </section>
@@ -411,7 +434,7 @@
                         <img src="img/arrow-slider-right.svg" alt="" class="team-arrow" id="teamRight">
                     </div>
                     <div class="download-button">
-                        <a href="#" class="content__item__button">Посмотреть всю команду</a>
+                        <a href="#" class="content__item__button swing">Посмотреть всю команду</a>
                     </div>
 
             </section>
@@ -529,7 +552,7 @@
                         <img src="img/arrow-slider-right.svg" alt="" class="team-arrow" id="caseRight">
                     </div>
                     <div class="download-button">
-                        <a href="#" class="content__item__button">Посмотреть все</a>
+                        <a href="#" class="content__item__button swing">Посмотреть все</a>
                     </div>
 
             </section>
@@ -624,13 +647,14 @@
                                 <input type="text" name="" id="" class="form__input form__input_phone">
                             </div>
                             <div class="form__row">
-                                
-                                <input type="text" name="" id="" class="form__input form__input_textarea" placeholder="Комментарий">
+
+                                <input type="text" name="" id="" class="form__input form__input_textarea"
+                                    placeholder="Комментарий">
                             </div>
                             <div class="form__row">
-                                
-                                   <input type="submit" value="Отправить" class="form__submit">
-                                </div>
+
+                                <input type="submit" value="Отправить" class="form__submit">
+                            </div>
 
 
                         </form>
@@ -638,7 +662,30 @@
                 </div>
             </section>
         </main>
-        <footer class="footer"></footer>
+        <footer class="footer">
+            <div class="footer-wrap">
+                <div class="logo">
+                    <img class="logo__img" src="img/logoDarc.svg" alt="">
+                </div>
+                <div class="soc">
+                    <ul class="soc__list">
+                        <li class="soc__item"><a class="soc__link" href="#"><i class="icon icon-inst"
+                                    aria-hidden="true"></i></a></li>
+                        <li class="soc__item"><a class="soc__link" href="#"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a></li>
+                        <li class="soc__item"><a class="soc__link" href="#"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a></li>
+                        <li class="soc__item"><a class="soc__link" href="#"><i class="fa fa-youtube-play"
+                                    aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <span class="copiright__text">© Креативная мастерская “MOPS”, ФОП Писарчук М., 2019</span>
+                </div>
+            </div>
+
+
+        </footer>
     </div>
 </body>
 

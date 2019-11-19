@@ -1,25 +1,36 @@
 .services {
     padding-top:15rem;
-    padding-bottom:15rem;
+    padding-bottom:13rem;
     background-color: #f7f9fc;
+
+    .content__item:hover .over {
+        opacity: 1;
+        transition:opacity 300ms ease;
+      }
 }
 
 .services-content {
     margin:0 auto;
     max-width: 128rem;
-    max-height: 95rem;
+   
     width:100%;
-    min-height: 95rem;
+    
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: space-between;
     align-content: space-between;
+   
 }
 .content__item-img_size {
     width:auto;
     height: auto;
+
+
+    
 }
+
+
 
 .content__item_size{
     width: 29rem;
@@ -30,6 +41,8 @@
     flex-direction: column;
     background-color: $white;
     border-radius: 2rem;
+    overflow: hidden;
+    margin-bottom:4rem;
 }
 
 .content__item-description_modif {

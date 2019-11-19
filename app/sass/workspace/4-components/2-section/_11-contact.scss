@@ -7,6 +7,8 @@
     background-repeat: no-repeat; 
     padding-top: 26rem;
     padding-bottom:26rem;
+    height: 100vh;
+    min-height: 96rem;
   
 }
 
@@ -45,13 +47,16 @@
 
 .tabs__content {
     display: none;
+    opacity:0;
+    transition: opacity 300ms ease;
 
     /* по умолчанию прячем все блоки */
 }
 
 .tabs__content.active {
     display: block;
-    /* по умолчанию показываем нужный блок */
+    opacity: 1;
+    transition: opacity 300ms ease;
 }
 
 .tabs_contacts {
@@ -69,6 +74,8 @@
     padding: 0.6rem 4rem;
     cursor: pointer;
     text-transform: uppercase;
+    transition:color 400ms ease; 
+
 
 
 }
@@ -87,6 +94,8 @@
     letter-spacing: 3px;
     text-align: center;
     color: #ffffff;
+    transition:color 400ms ease; 
+  
 }
 
 .adress-list {
