@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="950" height="290" viewBox="0 0 950 290">
+    <defs>
+        <rect id="a" width="950" height="290" rx="20"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#a"/>
+        <circle cx="495" cy="21" r="47" fill="#B99DDC" mask="url(#b)" opacity=".2" style="mix-blend-mode:multiply"/>
+        <circle cx="589.5" cy="67.5" r="23.5" fill="#733CB9" mask="url(#b)" opacity=".5"/>
+        <circle cx="543.5" cy="283.5" r="41.5" fill="#733CB9" mask="url(#b)" opacity=".5"/>
+        <circle cx="640" cy="91" r="7" fill="#B99DDC" mask="url(#b)" opacity=".2" style="mix-blend-mode:multiply"/>
+        <circle cx="600" cy="125" r="7" fill="#733CB9" mask="url(#b)" opacity=".5"/>
+        <circle cx="633" cy="119" r="7" fill="#733CB9" mask="url(#b)" opacity=".5"/>
+        <circle cx="486" cy="195" r="7" fill="#B99DDC" mask="url(#b)" opacity=".2" style="mix-blend-mode:multiply"/>
+        <circle cx="520" cy="184" r="7" fill="#733CB9" mask="url(#b)" opacity=".5"/>
+        <circle cx="540" cy="209" r="7" fill="#733CB9" mask="url(#b)" opacity=".5"/>
+        <path fill="#733CB9" d="M759.666-20c-70.904 21.621-96.294 50.128-76.17 85.52 30.186 53.087 100.467 2.01 124.17 27.817 23.702 25.806 7.055 28.839 23.234 54.839 16.18 26 104.458 64.813 123.766-29.033C967.538 56.58 957.714 10.2 925.194-20H759.666z" mask="url(#b)" opacity=".5"/>
+        <path fill="#B99DDC" d="M461.484 304c5.01-58.912 26.183-90.245 63.516-94 56-5.632 70.141 23 119.186 23s85.864-46.667 94.667-68c8.804-21.333 58.474-83 98.405-94 39.931-11 99.745 12.903 128.867 58.065 19.414 30.107 19.414 103.292 0 219.553L486.29 371.37 461.484 304z" mask="url(#b)" opacity=".2" style="mix-blend-mode:multiply"/>
+    </g>
+</svg>
